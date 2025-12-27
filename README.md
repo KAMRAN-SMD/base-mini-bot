@@ -1,1 +1,2 @@
-# base-mini-bot
+# CHIRANMINI
+CHIRAN MINI BOT
