@@ -1,10 +1,10 @@
 
 {
     "name": "session name",
-    "description": "Web Session Generator",
+    "description": "Web Session Generator | Nediya |",
     "logo": "image url",
-    "repository": "https://github.com/username/sesssion name",
-    "keywords": ["Malvin-Tech"],
+    "repository": "https://github.com/nediyaboy/base-mini-bot.git",
+    "keywords": ["Nediya-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
