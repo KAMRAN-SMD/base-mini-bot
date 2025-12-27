@@ -27,7 +27,7 @@ const {
 
 // ---------------- CONFIG ----------------
 
-const BOT_NAME_FANCY = '*C H I R A N  M I N I  B O T 🚀*';
+const BOT_NAME_FANCY = '*𝐍 𝙴 𝙳 𝙸 𝚈 𝙰 - 𝙼𝙳 ⚙️🚀*';
 
 const config = {
   AUTO_VIEW_STATUS: 'true',
@@ -42,12 +42,12 @@ const config = {
   OTP_EXPIRY: 300000,
   OWNER_NUMBER: process.env.OWNER_NUMBER || '94784332268',
   CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbC3cctHgZWfFwmNWj3C',
-  BOT_NAME: '*C H I R A N  M I N I  B O T 🚀*',
+  BOT_NAME: '*𝐍 𝙴 𝙳 𝙸 𝚈 𝙰 - 𝙼𝙳 ⚙️🚀*',
   BOT_VERSION: '1.0.0V',
-  OWNER_NAME: '*C H I R A N  M I N I  B O T 🚀*',
-  IMAGE_PATH: 'https://files.catbox.moe/4syrqg.jpeg',
-  BOT_FOOTER: '*ＣＨＩＲＡＮ  ＭＩＮＩ  ＢＯＴ ｖ1 🚀*',
-  BUTTON_IMAGES: { ALIVE: 'https://files.catbox.moe/4syrqg.jpeg' }
+  OWNER_NAME: '*𝐍 𝙴 𝙳 𝙸 𝚈 𝙰 - 𝙼𝙳 ⚙️🚀*',
+  IMAGE_PATH: 'https://files.catbox.moe/ui2db9.jpg',
+  BOT_FOOTER: '*𝐍 𝙴 𝙳 𝙸 𝚈 𝙰 - 𝙼𝙳 ｖ1 ⚙️🚀*',
+  BUTTON_IMAGES: { ALIVE: `https://files.catbox.moe/ui2db9.jpg' }
 };
 
 // ---------------- MONGO SETUP ----------------
