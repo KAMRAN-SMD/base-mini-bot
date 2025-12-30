@@ -576,7 +576,7 @@ case 'setting': {
     const prefix = currentConfig.PREFIX || config.PREFIX;
     const logo = currentConfig.logo || config.RCD_IMAGE_PATH;
     const stat = (val) => val === 'true' || val === true || val === 'on' ? 'ON' : 'OFF';
-    const text = `*ＣＨＩＲＡＮ ＭＩＮＩ ＢＯＴ ＳＥＴＴＩＮＧ 🛡️*
+    const text = `*𝑁𝑒𝑑𝑖𝑦𝑎 𝑀𝑖𝑛𝑖 𝐵𝑜𝑡 𝑆𝑒𝑡𝑡𝑖𝑛𝑔 🛡️*
 *╭────────────────┈⊷*
 *┋*▫️*ᴡᴏʀᴋ ᴛɪᴘᴇ* Current: ${currentConfig.WORK_TYPE || 'public'}
 *┋*
@@ -667,7 +667,7 @@ case 'menu': {
     const userName = msg.pushName || 'Unknown User';
     const pairSite = 'https://chiran-mini-e0ae1be987e5.herokuapp.com/';
     
-    const text = `*🚀 Ｗ ｅｌｃｏｍｅ ＴＯ ＣＨＩＲＡＮ ＭＩＮＩ ＢＯＴ ｖ1*
+    const text = `*🚀 𝐖 𝐞 𝐥 𝐜 𝐨 𝐦 𝐞  𝐍 𝐞 𝐝 𝐢 𝐲 𝐚 𝐌 𝐢 𝐧 𝐢 𝐕1*
 
 *╭───────────────┈⊷*
 *┊• 🖼️ \`ɢʀᴇᴇᴛ\` :-* ${greet}
@@ -687,10 +687,10 @@ case 'menu': {
 - \`${prefix}ꜱᴇᴛᴛɪɴɢ\` - ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ꜱᴇᴛᴛɪɴɢ
 - \`${prefix}ꜱᴇᴛᴛɪɴɢꜱ\` - ᴄᴜʀʀᴇɴᴛ ᴜᴘᴅᴀᴛᴇᴅ ꜱᴇᴛᴛɪɴɢ
 
-*🌐 ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴡᴇʙꜱɪᴛᴇ :*
+*🌐 ɴᴇᴅɪʏᴀ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴡᴇʙ :*
 > ${pairSite}
 
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴄʜɪʀᴀɴ ᴏꜰꜰɪᴄɪᴀʟ*`;
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ɴᴇᴅɪʏᴀ ᴏꜰꜰɪᴄɪᴀʟ*`;
     
     let imagePayload = String(logo).startsWith('http') ? { url: logo } : fs.readFileSync(logo);
     await socket.sendMessage(sender, {
@@ -719,17 +719,14 @@ case 'alive': {
     
     const text = `*Ｈｅｌｌｏｗ Ｉ'ｍ Ａｌｉｖｅ Ｎｏｗ 👾*
 
-*🚀 ＣＨＩＲＡＮ ＭＩＮＩ ＢＯＴ ｖ1*
+*🚀 𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 ｖ1*
 
 *• \`ᴠᴇʀꜱɪᴏɴ\` : ${version}*
 *• \`ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛ ɴʙ\` : ${connectNb}*
 
 *Ｕｓｅ \`${prefix}ᴍᴇɴᴜ\` Ｔｏ Ｓｅｅ Ａｖａｉｌａｂｌｅ Ｃｏｍｍａｎｄｓ 🤖*
 
-*🌐 ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴡᴇʙ ꜱɪᴛᴇ :*
-> ${pairSite}
-
-> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴄʜɪʀᴀɴ ᴏꜰꜰɪᴄɪᴀʟ*`;
+> *© ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ɴᴇᴅɪʏᴀ ᴏꜰꜰɪᴄɪᴀʟ*`;
     
     let imagePayload = String(logo).startsWith('http') ? { url: logo } : fs.readFileSync(logo);
     await socket.sendMessage(sender, {
@@ -1885,12 +1882,12 @@ case 'song': {
             {
                 image: { url: video.thumbnail },
                 caption:
-                    `*🎧 C H I R A N  M I N I  B O T 🚀 Song Downloader 💗*\n\n` +
+                    `*🎧 𝐍𝐄𝐃𝐈𝐘𝐀 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐒 💗*\n\n` +
 					
                     `*📍 Title:* _${video.title}_\n` +
                     `*📍 Duration:* _${video.timestamp}_\n\n` +
 					
-                    `> 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 C H I R A N  M I N I  B O T 🚀`,
+                    `> *ᴘᴏᴡᴇʀ ʙʏ ɴᴇᴅɪʏᴀ ᴍᴅ* 🚀`,
             },
             { quoted: msg }
         );
@@ -2063,9 +2060,9 @@ case 'video': {
                 {
                     image: { url: thumb },
                     caption:
-                        `*🎥 *C H I R A N  M I N I  B O T 🚀* Video Downloader 💗*\n\n` +
+                        `*🎥 𝐍𝐄𝐃𝐈𝐘𝐀 𝐕𝐈𝐃𝐄𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 💗*\n\n` +
                         `*📍 Title :* _${videoInfo.title || query}_\n\n` +
-                        `> Powered by *C H I R A N  M I N I  B O T 🚀*`,
+                        `> *ᴘᴏᴡᴇʀ ʙʏ ɴᴇᴅɪʏᴀ ᴍᴅ🚀*`,
                 },
                 { quoted: msg }
             );
@@ -2102,7 +2099,7 @@ case 'video': {
                 mimetype: "video/mp4",
                 fileName: `${title}.mp4`,
                 caption:
-                    `🎬 *${title}*\n\n> Powered by *C H I R A N  M I N I  B O T 🚀*`,
+                    `🎬 *${title}*\n\n> *ᴘᴏᴡᴇʀ ʙʏ ɴᴇᴅɪʏᴀ ᴍᴅ 🚀*`,
             },
             { quoted: msg }
         );
@@ -2321,7 +2318,7 @@ case 'grouplist': {
 
       await socket.sendMessage(sender, {
         text: textMsg,
-        footer: `🤖 Powered by ${botName}`
+        footer: `🤖 ᴘᴏᴡᴇʀ ʙʏ ɴᴇᴅɪʏᴀ ᴍᴅ ${botName}`
       });
 
       // Add short delay to avoid spam
@@ -2349,7 +2346,7 @@ case 'cid': {
     // ✅ Dynamic botName load
     const sanitized = (number || '').replace(/[^0-9]/g, '');
     let cfg = await loadUserConfigFromMongo(sanitized) || {};
-    let botName = cfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    let botName = cfg.botName || '* 𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
 
     // ✅ Fake Meta AI vCard (for quoted msg)
     const dxz = {
@@ -2450,7 +2447,7 @@ case 'tiktokdl': {
         // 🔹 Load bot name dynamically
         const sanitized = (number || '').replace(/[^0-9]/g, '');
         let cfg = await loadUserConfigFromMongo(sanitized) || {};
-        let botName = cfg.botName || 'C H I R A N  M I N I  B O T 🚀';
+        let botName = cfg.botName || `𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈🚀';
 
         // 🔹 Fake contact for Meta AI mention
         const botMention = {
@@ -2520,7 +2517,7 @@ END:VCARD`
         const usernameMatch = q.match(/@([^\/]+)/);
         const username = usernameMatch ? usernameMatch[1] : 'Unknown';
 
-        const titleText = `*🎥 ${botName} - TikTok Video Downloader 🎥*`;
+        const titleText = `*🎥 ${botName} - 𝐍𝐄𝐃𝐈𝐘𝐀 𝐓𝐈𝐊𝐓𝐎𝐊 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 🎥*`;
 const content = `╭─「 𝗧𝗶𝗸𝗧𝗼𝗸 𝗜𝗻𝗳𝗼 」─╮\n` +
                 `│ 👤 Author: @${username}\n` +
                 `│ 📝 Description: ${title}\n` +
@@ -2571,7 +2568,7 @@ case 'owner': {
       m.chat,
       {
         contacts: {
-          displayName: '*C H I R A N  M I N I  B O T 🚀*',
+          displayName: '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*',
           contacts: [{ vcard }]
         }
       },
@@ -2603,7 +2600,7 @@ case 'addadmin': {
   if (!isOwner) {
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
 
     const dxz = {
         key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_ADDADMIN2" },
@@ -2618,7 +2615,7 @@ case 'addadmin': {
 
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈🚀*';
 
     const dxz = {
         key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_ADDADMIN3" },
