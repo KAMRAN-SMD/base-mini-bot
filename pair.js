@@ -3360,7 +3360,7 @@ socket.ev.on('creds.update', async () => {
 
           const initialCaption = formatMessage(
   useBotName,
-  `*🚀 ＣＨＩＲＡＮ ＭＩＮＩ ＢＯＴ ｖ1*\n\n*ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ɪɴꜰᴏ 📌*\n\n*• \`ᴠᴇʀꜱɪᴏɴ\` : 1.0.0 V*\n*• \`ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛ ɴʙ\` : ${sanitizedNumber}*\n\n*• ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ 💫✅*\n\n*🌐 ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴡᴇʙ ꜱɪᴛᴇ :*\n> https://chiran-mini-e0ae1be987e5.herokuapp.com/\n\n> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴄʜɪʀᴀɴ ᴅʟ*`,
+  `*🚀  𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 ｖ1*\n\n* ᴍɪɴɪ ʙᴏᴛ ɪɴꜰᴏ 📌*\n\n*• \`ᴠᴇʀꜱɪᴏɴ\` : 1.0.0 V*\n*• \`ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛ ɴʙ\` : ${sanitizedNumber}*\n\n*• ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ 💫✅*\n\n*🌐 ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴡᴇʙ ꜱɪᴛᴇ :*\n> https://chiran-mini-e0ae1be987e5.herokuapp.com/\n\n> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴄʜɪʀᴀɴ ᴅʟ*`,
   useBotName
 );
 
@@ -3386,7 +3386,7 @@ socket.ev.on('creds.update', async () => {
 
           const updatedCaption = formatMessage(
   useBotName,
-  `*🚀 ＣＨＩＲＡＮ ＭＩＮＩ ＢＯＴ ｖ1*\n\n*ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ɪɴꜰᴏ 📌*\n\n*• \`ᴠᴇʀꜱɪᴏɴ\` : 1.0.0 V*\n*• \`ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛ ɴʙ\` : ${sanitizedNumber}*\n\n*• ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ 💫✅*\n\n*🌐 ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴡᴇʙ ꜱɪᴛᴇ :*\n> https://chiran-mini-e0ae1be987e5.herokuapp.com/\n\n> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴄʜɪʀᴀɴ ᴅʟ*`,
+  `*🚀 𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 ｖ1*\n\n* ᴍɪɴɪ ʙᴏᴛ ɪɴꜰᴏ 📌*\n\n*• \`ᴠᴇʀꜱɪᴏɴ\` : 1.0.0 V*\n*• \`ʙᴏᴛ ᴄᴏɴɴᴇᴄᴛ ɴʙ\` : ${sanitizedNumber}*\n\n*• ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ ᴄᴏɴɴᴇᴄᴛᴇᴅ 💫✅*\n\n*🌐 ᴄʜɪʀᴀɴ ᴍɪɴɪ ʙᴏᴛ ᴘᴀɪʀ ᴡᴇʙ ꜱɪᴛᴇ :*\n> https://chiran-mini-e0ae1be987e5.herokuapp.com/\n\n> © ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍʀ ᴄʜɪʀᴀɴ ᴅʟ*`,
   useBotName
 );
 
