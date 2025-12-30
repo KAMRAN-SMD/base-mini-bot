@@ -2642,7 +2642,7 @@ case 'deladmin': {
   if (!args || args.length === 0) {
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
 
     const dxz = {
       key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_DELADMIN1" },
@@ -2656,7 +2656,7 @@ case 'deladmin': {
   if (!isOwner) {
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
 
     const dxz = {
       key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_DELADMIN2" },
@@ -2671,7 +2671,7 @@ case 'deladmin': {
 
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
 
     const dxz = {
       key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_DELADMIN3" },
@@ -2683,7 +2683,7 @@ case 'deladmin': {
     console.error('deladmin error', e);
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
     const dxz = {
       key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_DELADMIN4" },
       message: { contactMessage: { displayName: title, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${title};;;;\nFN:${title}\nORG:Meta Platforms\nTEL;type=CELL;type=VOICE;waid=13135550002:+1 313 555 0002\nEND:VCARD` } }
@@ -2699,7 +2699,7 @@ case 'admins': {
     const list = await loadAdminsFromMongo();
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
 
     const dxz = {
       key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_ADMINS" },
@@ -2718,7 +2718,7 @@ case 'admins': {
     console.error('admins error', e);
     let userCfg = {};
     try { if (number && typeof loadUserConfigFromMongo === 'function') userCfg = await loadUserConfigFromMongo((number || '').replace(/[^0-9]/g, '')) || {}; } catch(e){ userCfg = {}; }
-    const title = userCfg.botName || '*C H I R A N  M I N I  B O T 🚀*';
+    const title = userCfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*';
     const dxz = {
       key: { remoteJid: "status@broadcast", participant: "0@s.whatsapp.net", fromMe: false, id: "META_AI_FAKE_ID_ADMINS2" },
       message: { contactMessage: { displayName: title, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${title};;;;\nFN:${title}\nORG:Meta Platforms\nTEL;type=CELL;type=VOICE;waid=13135550002:+1 313 555 0002\nEND:VCARD` } }
@@ -2790,7 +2790,7 @@ case 'setlogo': {
 case 'jid': {
     const sanitized = (number || '').replace(/[^0-9]/g, '');
     const cfg = await loadUserConfigFromMongo(sanitized) || {};
-    const botName = cfg.botName || '*C H I R A N  M I N I  B O T 🚀*'; // dynamic bot name
+    const botName = cfg.botName || '*𝐍 𝐄 𝐃 𝐈 𝐘 𝐀  𝐌 𝐈 𝐍 𝐈 🚀*'; // dynamic bot name
 
     const userNumber = sender.split('@')[0]; 
 
