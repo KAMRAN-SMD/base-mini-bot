@@ -1,7 +1,7 @@
 {
-  "name": "test",
+  "name": "Nediya Mini",
   "version": "1.0.0",
-  "description": "test",
+  "description": "Nediya Mini Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
